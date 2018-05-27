@@ -53,7 +53,7 @@ public class QuadraticEquation {
 			}
 
 			catch(SquareEquationException e){
-				e.printStackTrace();
+			e.printStackTrace();
 			}
 
 

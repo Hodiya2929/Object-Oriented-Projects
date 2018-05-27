@@ -5,6 +5,7 @@ public class Menu {
 
 	static QuadraticEquation solution;
 
+	@SuppressWarnings("resource")
 	public static void menu(){
 
 		solution=new QuadraticEquation();
@@ -33,14 +34,10 @@ public class Menu {
 
 				if(a==0&&b==0&&c==0){
 
-					try{
+			
 
 						throw new SquareEquationException("x can be any number - trivial!");
-					}
-
-					catch(SquareEquationException e){
-						e.printStackTrace();
-					}
+			
 
 				}
 				else if(a==0&&b==0&&c!=0){
@@ -48,7 +45,8 @@ public class Menu {
 						throw new SquareEquationException("Error, no answer!!");
 					}
 					catch(SquareEquationException e){
-						e.printStackTrace();
+					e.printStackTrace();
+						
 					}
 
 				}

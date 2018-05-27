@@ -11,5 +11,4 @@ public class SquareEquationException extends RuntimeException {
 		super(error);
 		}
 		
-
 }

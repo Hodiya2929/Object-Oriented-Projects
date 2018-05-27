@@ -354,7 +354,7 @@ public class MyTextEditorGui extends javax.swing.JFrame {
     }//GEN-LAST:event_formWindowClosing
 
     private void aboutTextEditorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aboutTextEditorActionPerformed
-        JOptionPane.showMessageDialog(MyTextEditorGui.this,"My Simple Editor Priduct Version 1.0.0", "My Simple Editor", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(MyTextEditorGui.this,"My Simple Editor Product Version 1.0.0", "My Simple Editor", JOptionPane.PLAIN_MESSAGE);
     }//GEN-LAST:event_aboutTextEditorActionPerformed
 
     private void cutTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cutTextActionPerformed
