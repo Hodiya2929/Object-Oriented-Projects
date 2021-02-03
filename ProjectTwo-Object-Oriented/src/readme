@@ -10,5 +10,5 @@ package quadricequation - Exceptions.
 
 package carManagementSystem - generic classes.
 
-package mytexteditor - GUI - (done on netbeans). 
+package mytexteditor - GUI.
 
